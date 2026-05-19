@@ -1,0 +1,12 @@
+<?php
+
+$numero = $_POST['sss'];
+
+if ($numero % 2 == 0) {
+    echo "El número $numero es par.";
+} else {
+    echo "El número $numero es impar.";
+}
+echo "<br><a href='guia_ejercicio9.html'>Volver</a>";
+
+?>
